@@ -1,0 +1,2 @@
+apriltags_ros/apriltags:apriltags_ros/apriltags_ros:darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:estimation_pos:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/mamu/hcc_2022/Final_competition/hcc_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mamu/hcc_2022/Final_competition/hcc_ws/install -G Unix Makefiles
