@@ -24,9 +24,10 @@ $ source devel/setup.bash
 ```
 ### Implementation
 
-[NEW]Run ROS master(T1):  
+Run ROS master(T1):  
 `$ roscore`
-[NEW]Run multiple roslaunch on terminal(T2):
+
+Run multiple roslaunch on terminal(T2):<br>
 `$ source all.sh`
 
 Set use_sim_time to true:  
