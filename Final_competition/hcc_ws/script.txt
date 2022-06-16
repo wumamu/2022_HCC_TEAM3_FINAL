@@ -1,0 +1,18 @@
+catkin_make
+# T1
+source devel/setup.bash
+roscore
+
+# T2
+source devel/setup.bash
+rosparam set use_sim_time true
+
+# T3
+source devel/setup.bash
+source all.sh
+
+# T4
+
+source devel/setup.bash
+rosbag play 2022-05-21-23-23-36.bag -r 0.5 --clock
+
